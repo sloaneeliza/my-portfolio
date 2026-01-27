@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">my portfolio ✦</div>
+            <ul class="nav-links">
+                <li><a href="#about">about</a></li>
+                <li><a href="#experience">experience</a></li>
+                <li><a href="#work">work</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <div class="glitch-wrapper">
+                <h1 class="hero-title">
+                    <span class="title-line">hi, i'm</span>
+                    <span class="title-name">sloane</span>
+                </h1>
+            </div>
+            <p class="hero-subtitle">creative software developer & designer ✧</p>
+            <div class="hero-cta">
+                <a href="#work" class="btn btn-primary">view my work</a>
+                <a href="#contact" class="btn btn-secondary">get in touch</a>
+            </div>
+        </div>
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">about me ⟡</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a software engineer passionate about building beautiful and innovative systems.</p>
+                    <p>I love combining clean design with smooth interactions to create something memorable.</p>
+                    <p>I also enjoy working with security tools and analyzing vulnerabilities!</p>
+                    <div class="skills">
+                        <span class="skill-tag">UI/UX Design</span>
+                        <span class="skill-tag">Frontend Dev</span>
+                        <span class="skill-tag">Creative Coding</span>
+                        <span class="skill-tag">Security Analyst</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">experience ✧</h2>
+            <div class="timeline">
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div>
+                            <h3 class="experience-role">E-Sports Facility Assistant</h3>
+                            <h4 class="experience-company">Belmont FitRec</h4>
+                        </div>
+                        <div class="experience-meta">
+                            <span class="experience-date">Aug 2025 - Dec 2025</span>
+                            <span class="experience-location">Nashville, TN</span>
+                        </div>
+                    </div>
+                    <ul class="experience-description">
+                        <li>Managed setup, maintenance, and troubleshooting of gaming PCs and related equipment</li>
+                        <li>Monitored facility usage and ensured proper equipment handling</li>
+                        <li>Oversaw daily e-sports facility operations while fostering an inclusive environment for all students</li>
+                    </ul>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div>
+                            <h3 class="experience-role">Student Researcher</h3>
+                            <h4 class="experience-company">Belmont University SURFS</h4>
+                        </div>
+                        <div class="experience-meta">
+                            <span class="experience-date">May 2025 - Jul 2025</span>
+                            <span class="experience-location">Nashville, TN</span>
+                        </div>
+                    </div>
+                    <ul class="experience-description">
+                        <li>Analyzed student performance data before and after generative AI integration using data science techniques</li>
+                        <li>Built data visualizations with pandas, seaborn, and matplotlib in Python</li>
+                        <li>Developed a machine learning model to predict the impact of AI usage on exam performance</li>
+                        <li><a href="https://belmontsurfs.wordpress.com/2025/06/29/sloane-wright/" target="_blank" class="experience-link">View research page →</a></li>
+                    </ul>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div>
+                            <h3 class="experience-role">3D Web Developer</h3>
+                            <h4 class="experience-company">JumpStart</h4>
+                        </div>
+                        <div class="experience-meta">
+                            <span class="experience-date">Jun 2024 - Aug 2024</span>
+                            <span class="experience-location">Remote</span>
+                        </div>
+                    </div>
+                    <ul class="experience-description">
+                        <li>Built an interactive 3D website for Freedom Company and Vanderbilt's Fab Lab using React, Three.js, and Node.js</li>
+                        <li>Optimized performance through lazy loading and efficient asset management</li>
+                        <li>Designed intuitive user experiences based on UI/UX principles</li>
+                        <li>Collaborated with 3D designers to integrate educational content on sustainable fashion</li>
+                    </ul>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div>
+                            <h3 class="experience-role">Cybersecurity Analyst & IT Intern</h3>
+                            <h4 class="experience-company">Resilience Inc.</h4>
+                        </div>
+                        <div class="experience-meta">
+                            <span class="experience-date">Jan 2024 - Aug 2024</span>
+                            <span class="experience-location">Remote</span>
+                        </div>
+                    </div>
+                    <ul class="experience-description">
+                        <li>Supported cybersecurity team with risk assessments and incident response procedures</li>
+                        <li>Deployed a SIEM solution including configuration, log integration, and testing for threat detection</li>
+                        <li>Led an intern IT Help Desk team, coordinating assignments and managing daily operations</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="work" class="work">
+        <div class="container">
+            <h2 class="section-title">selected work ✦</h2>
+            <div class="projects-grid">
+                <a href="https://github.com/sloaneeliza/Weather-Data-Analysis" target="_blank" class="project-card">
+                    <div class="project-number">01</div>
+                    <h3 class="project-title">Weather Data Analysis</h3>
+                    <p class="project-description">Data analysis and visualization of weather patterns using Python</p>
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>Data Analysis</span>
+                    </div>
+                    <p class="project-link">click to view project →</p>
+                </a>
+                <a href="https://github.com/sloaneeliza/PlanterGroupProj" target="_blank" class="project-card">
+                    <div class="project-number">02</div>
+                    <h3 class="project-title">Planter Android App</h3>
+                    <p class="project-description">Mobile application for plant care and gardening management</p>
+                    <div class="project-tags">
+                        <span>Android</span>
+                        <span>Mobile Dev</span>
+                        <span>Java</span>
+                    </div>
+                    <p class="project-link">click to view project →</p>
+                </a>
+                <a href="https://github.com/sloaneeliza/Youtube-Video-Recommendation-Sys" target="_blank" class="project-card">
+                    <div class="project-number">03</div>
+                    <h3 class="project-title">YouTube Video Recommender</h3>
+                    <p class="project-description">Machine learning system for personalized video recommendations</p>
+                    <div class="project-tags">
+                        <span>Machine Learning</span>
+                        <span>Python</span>
+                    </div>
+                    <p class="project-link">click to view project →</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">let's connect ✧</h2>
+            <div class="contact-content">
+                <p class="contact-text">Have a project in mind or just want to chat? I'd love to hear from you!</p>
+                <div class="contact-links">
+                    <a href="mailto:sloanewright109@gmail.com" class="contact-link">
+                        <span class="link-icon">✉</span>
+                        <span>email me!</span>
+                    </a>
+                    <a href="https://github.com/sloaneeliza" class="contact-link" target="_blank">
+                        <span class="link-icon">♡</span>
+                        <span>github</span>
+                    </a>
+                    <a href="https://x.com/SloaneEliza_" class="contact-link" target="_blank">
+                        <span class="link-icon">✦</span>
+                        <span>X (formerly twitter)</span>
+                    </a>
+                    <a href="https://linkedin.com/in/sloane-wright" class="contact-link" target="_blank">
+                        <span class="link-icon">❀</span>
+                        <span>LinkedIn</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>© 2026 designed & built with care by sloane wright ♡</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
