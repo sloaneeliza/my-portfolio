@@ -1,4 +1,4 @@
 <h3>🌸 source code for my personal website 🌸</h3>
 
-- stack used: html/css/java
+- stack used: html/css/javascript
 - link: https://sloaneeliza.github.io/my-portfolio/
