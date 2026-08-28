@@ -439,6 +439,12 @@ section {
 }
 
 .experience-badge.internship {
+    background: rgba(183, 148, 246, 0.15);
+    color: var(--accent-purple);
+    border: 1px solid var(--accent-purple);
+}
+
+.experience-badge.part-time {
     background: rgba(0, 212, 255, 0.1);
     color: var(--accent-blue);
     border: 1px solid var(--accent-blue);
